@@ -1,22 +1,9 @@
-body {
-    background-color: blueviolet;
-    /*font-family:;*/
-}
-
-h1, h2, h3, h4, h5, h6 {
-    /*font-family:;*/
-}
-
 header {
-    position: relative;
-    background-color: black;
-    height: 100vh;
-    min-height: 25rem;
-    width: 100%;
-    overflow: hidden;
-  }
+  padding: 20px 0;
 
-  header video {
+}
+
+/*header video {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -31,12 +18,12 @@ header {
     transform: translateX(-50%) translateY(-50%);
   }
 
-  header .container {
+header .container {
     position: relative;
     z-index: 2;
   }
   
-  header .overlay {
+header .overlay {
     position: absolute;
     top: 0;
     left: 0;
