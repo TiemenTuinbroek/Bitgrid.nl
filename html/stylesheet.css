@@ -10,10 +10,27 @@
 div {
   font-family: typerighter;
 }
-.navbar {
-  transition: all 0.4s;
+h4 {
+  color: black;
 }
-.navbar.active {
-  background: #fff;
-  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+.wrapper {
+  left: 0;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
 }
+.jumbotron {
+  background-image: url(img/background-welcome.jpg);
+  background-color: black;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  min-height: 100vh;
+  max-height: 999px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+ }
