@@ -34,3 +34,6 @@ h4 {
   width: 100%;
   z-index: 1;
  }
+ .jumbotron .container {
+  padding-top: 15rem;
+ }
