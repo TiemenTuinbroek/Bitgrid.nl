@@ -7,7 +7,7 @@
   src: url(rm_typerighter_medium.ttf);
   font-weight: bold;
 }
-div {
+div h1 h2 h3 h4 h5 h6 {
   font-family: typerighter;
 }
 h4 {
@@ -37,6 +37,16 @@ h4 {
  .jumbotron .container {
   padding-top: 15rem;
  }
- div .section2 div .container{
+ /*.discord .container {
   background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+ }*/
+ .card {
+   margin-top: 70px;
  }
+
+
+ 
