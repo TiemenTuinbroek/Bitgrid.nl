@@ -46,7 +46,12 @@ h4 {
  }*/
  .card {
    margin-top: 70px;
+   
  }
-
+.card[data-background=image] {
+  background-position: 50%;
+  background-size: cover;
+  text-align: center;
+}
 
  
