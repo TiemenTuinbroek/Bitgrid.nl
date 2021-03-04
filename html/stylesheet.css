@@ -53,5 +53,8 @@ h4 {
   background-size: cover;
   text-align: center;
 }
+.card-footer .round {
+  border-radius: 30px;
+}
 
  
