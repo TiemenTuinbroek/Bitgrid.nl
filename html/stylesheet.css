@@ -7,11 +7,12 @@
   src: url(rm_typerighter_medium.ttf);
   font-weight: bold;
 }
-div h1 h2 h3 h4 h5 h6 p {
+div h1 h2 h3 h4 h5 h6 p a {
   font-family: typerighter;
 }
-h4 {
-  color: black;
+.nav-link {
+  font-weight: 500;
+  font-size: x-large;
 }
 .wrapper {
   left: 0;
@@ -38,8 +39,7 @@ h4 {
   padding-top: 15rem;
  }
  .card {
-   margin-top: 70px;
-   
+   margin-top: 70px; 
  }
 .card[data-background=image] {
   background-position: 50%;
