@@ -37,13 +37,6 @@ h4 {
  .jumbotron .container {
   padding-top: 15rem;
  }
- /*.discord {
-  background-color: black;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
- }*/
  .card {
    margin-top: 70px;
    
@@ -56,14 +49,27 @@ h4 {
 .card-footer .round {
   border-radius: 30px;
 }
+.discord {
+  background-color:lightgoldenrodyellow;
+  padding-bottom: 50px;
+}
+.ground {
+  background-color: lightblue;
+  padding-bottom: 50px;
+}
 .grijs {
   background-color: #eee;
+  padding-bottom: 50px;
 }
 .footer {
   background-color: #262626;
-  color: white;
+  color: gray;
   height: 90px;
   text-align: left;
-  line-height: 85px;
+  line-height: 90px;
+}
+.footer a {
+  margin-left: 607px;
+  color: gray;
 }
  
