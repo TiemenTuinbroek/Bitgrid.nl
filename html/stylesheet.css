@@ -10,6 +10,13 @@
 div h1 h2 h3 h4 h5 h6 p a {
   font-family: typerighter;
 }
+.navbar-change {
+  background-color: transparent;
+  transition: 0.4s ease;
+}
+.navbar-change.scrolled {
+  background-color: #ffffff;
+}
 .nav-link {
   font-weight: 500;
   font-size: x-large;
