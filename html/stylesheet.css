@@ -13,6 +13,7 @@ div h1 h2 h3 h4 h5 h6 p a {
 .nav-link {
   font-weight: 500;
   font-size: x-large;
+  color: rgb(102, 101, 101);
 }
 .wrapper {
   left: 0;
@@ -35,8 +36,25 @@ div h1 h2 h3 h4 h5 h6 p a {
   width: 100%;
   z-index: 1;
  }
- .jumbotron .container {
-  padding-top: 15rem;
+.jumbotron .container {
+  padding-top: 12rem;
+ }
+.jumbotron-color {
+   background-color: rgba(0, 0, 0, 0.103);
+   position: absolute;
+   z-index: -1;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+ }
+.w-100 .display-2 {
+   font-weight: 600;
+ }
+.lead-text {
+  font-size: 1.50rem;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
  }
  .card {
    margin-top: 70px; 
@@ -50,11 +68,11 @@ div h1 h2 h3 h4 h5 h6 p a {
   border-radius: 30px;
 }
 .discord {
-  background-color:lightgoldenrodyellow;
+  background-color: #eee;
   padding-bottom: 50px;
 }
 .ground {
-  background-color: lightblue;
+  background-color: rgb(206, 203, 203);
   padding-bottom: 50px;
 }
 .grijs {
