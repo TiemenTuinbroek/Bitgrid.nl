@@ -66,6 +66,14 @@ div h1 h2 h3 h4 h5 h6 p a {
  .card {
    margin-top: 70px; 
  }
+ .discord .container .discord-header {
+   font-size: 3.1rem;
+   font-weight: 500;
+
+ }
+ .discord .header {
+   margin-top: 6rem;
+   }
 .card[data-background=image] {
   background-position: 50%;
   background-size: cover;
@@ -74,17 +82,25 @@ div h1 h2 h3 h4 h5 h6 p a {
 .card-footer .round {
   border-radius: 30px;
 }
+.downloads-header {
+  font-size: 3.1rem;
+  font-weight: 500;
+}
+.overons-header {
+  font-size: 3.1rem;
+  font-weight: 500;
+}
 .discord {
   background-color: #eee;
   padding-bottom: 50px;
 }
 .ground {
   background-color: rgb(206, 203, 203);
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 .grijs {
   background-color: #eee;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 .footer {
   background-color: #262626;
