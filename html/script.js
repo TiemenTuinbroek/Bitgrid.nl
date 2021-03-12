@@ -19,3 +19,4 @@ function myFunction() {
 	  document.getElementById("begin").className = "slideUp";
 	}
   }
+
