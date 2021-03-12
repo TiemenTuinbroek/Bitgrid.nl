@@ -7,15 +7,45 @@
   src: url(rm_typerighter_medium.ttf);
   font-weight: bold;
 }
+html {
+  scroll-behavior: smooth;
+}
 div h1 h2 h3 h4 h5 h6 p a {
   font-family: typerighter;
 }
-.navbar-change {
-  background-color: transparent;
-  transition: 0.4s ease;
+.wit{
+  background-color: white;
 }
-.navbar-change.scrolled {
-  background-color: #ffffff;
+/*.discord .row{
+  visibility: hidden;
+}*/
+.slideUp {
+  animation-name: slideUp;
+  -webkit-animation-name: slideUp;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes slideUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
 }
 .nav-link {
   font-weight: 500;
@@ -105,12 +135,14 @@ div h1 h2 h3 h4 h5 h6 p a {
 .footer {
   background-color: #262626;
   color: gray;
-  height: 90px;
   text-align: left;
   line-height: 90px;
+  text-align: center;
 }
 .footer a {
-  margin-left: 607px;
   color: gray;
+}
+.footer p {
+  margin-top: 16px;
 }
  
