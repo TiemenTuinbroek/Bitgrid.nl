@@ -2,9 +2,9 @@ window.onscroll = function() {myFunction()};
 
 function myFunction() {
   if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-    document.getElementById("change").className = "wit";
+    document.getElementById("Verander").className = "wit";
   } else {
-    document.getElementById("change").className = "";
+    document.getElementById("Verander").className = "";
   }
 }
 
