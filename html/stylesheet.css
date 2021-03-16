@@ -18,8 +18,6 @@ div h1 h2 h3 h4 h5 h6 p a {
 }
 .wit{
   background-color: white;
-  width: 100%;
-  height: 50px;
 }
 .slideUp {
   animation-name: slideUp;
@@ -48,6 +46,16 @@ div h1 h2 h3 h4 h5 h6 p a {
     opacity: 1;
     -webkit-transform: translateY(0%);
   }
+}
+.navbar {
+  background-color: rgba(255, 255, 255, 0.849);
+  border-bottom-color: transparent;
+
+}
+.navbar-toggler {
+  color: black;
+  background-color: black;
+  z-index: 10;
 }
 .nav-link {
   font-weight: 500;
@@ -198,6 +206,7 @@ div h1 h2 h3 h4 h5 h6 p a {
 .grijs .btn:hover span {
 	padding: 2px;
 	width: max-content;
+  display: flex;
 } 
 .footer {
   background-color: #262626;
