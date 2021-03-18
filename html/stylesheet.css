@@ -7,9 +7,7 @@
   src: url(rm_typerighter_medium.ttf);
   font-weight: bold;
 }
-a:hover {
-  color: gray;
-}
+
 html {
   scroll-behavior: smooth;
 }
@@ -48,7 +46,7 @@ div h1 h2 h3 h4 h5 h6 p a {
   }
 }
 .navbar {
-  background-color: rgba(255, 255, 255, 0.849);
+  background-color: rgba(255, 255, 255, 0.877);
   border-bottom-color: transparent;
 
 }
@@ -77,6 +75,9 @@ div h1 h2 h3 h4 h5 h6 p a {
   font-size: x-large;
   color: rgb(102, 101, 101);
 }
+.nav-link:hover {
+  color: rgb(29, 29, 29);
+}
 .wrapper {
   left: 0;
   background-color: #fff;
@@ -102,7 +103,7 @@ div h1 h2 h3 h4 h5 h6 p a {
   padding-top: 12rem;
  }
 .jumbotron-color {
-   background-color: rgba(0, 0, 0, 0.103);
+   background-color: rgba(0, 0, 0, 0.212);
    position: absolute;
    z-index: -1;
    top: 0;
