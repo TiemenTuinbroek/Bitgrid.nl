@@ -175,10 +175,17 @@ div h1 h2 h3 h4 h5 h6 p a {
   background-color: rgba(0, 0, 0, 0.514);
 }
 .card-body .game1-text {
-  color:rgb(44, 255, 1);
+  color:rgb(1, 103, 255);
 }
 .card-body .game1-text2 {
-  color: rgb(255, 81, 0);
+  color: rgb(236, 29, 39);
+}
+.ground .row .card-1 {
+  background-color: rgba(0, 0, 0, 0.486);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -3;
 }
 .modal-text {
   margin-top: 10px;
@@ -252,5 +259,12 @@ div h1 h2 h3 h4 h5 h6 p a {
 }
 .footer p {
   margin-top: 16px;
+}
+.footer .row img {
+  height: 28px;
+  width: 28px;
+}
+.footer .row a:hover {
+  color: gold;
 }
  
