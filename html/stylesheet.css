@@ -175,17 +175,13 @@ div h1 h2 h3 h4 h5 h6 p a {
   background-color: rgba(0, 0, 0, 0.514);
 }
 .card-body .game1-text {
-  color:rgb(1, 103, 255);
+  color: white;
 }
 .card-body .game1-text2 {
-  color: rgb(236, 29, 39);
+  color: white;
 }
-.ground .row .card-1 {
-  background-color: rgba(0, 0, 0, 0.486);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  z-index: -3;
+.ground .row .game2-text {
+  visibility: hidden;
 }
 .modal-text {
   margin-top: 10px;
