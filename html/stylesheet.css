@@ -189,6 +189,9 @@ div h1 h2 h3 h4 h5 h6 p a {
 .ground .row .btn-light {
   visibility: hidden;
 }
+.ground .row .game1-text3 {
+  visibility: hidden;
+}
 .modal-text {
   margin-top: 10px;
 }
