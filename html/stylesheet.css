@@ -100,7 +100,7 @@ div h1 h2 h3 h4 h5 h6 p a {
   z-index: 1;
  }
  .jumbotron .container {
-   padding-top: 300px;
+   padding-top: 13rem;
 }
 .jumbotron-color {
    background-color: rgba(0, 0, 0, 0.212);
@@ -181,6 +181,12 @@ div h1 h2 h3 h4 h5 h6 p a {
   color: white;
 }
 .ground .row .game2-text {
+  visibility: hidden;
+}
+.ground .row .game3-text {
+  visibility: hidden;
+}
+.ground .row .btn-light {
   visibility: hidden;
 }
 .modal-text {
